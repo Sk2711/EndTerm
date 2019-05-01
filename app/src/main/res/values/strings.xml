@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EndTerm</string>
+    <string name="Email">Enter a valid Email</string>
+    <string name="Password">Enter a valid Password</string>
+    <string name="EPassword">Password is Too weak</string>
+    <string name="Name">Enter Name</string>
+    <string name="DateOfBirth">You Should Above 14</string>
+    <string name="Number">Enter Contact number </string>
+    <string name="ConfirmPass"> Password does not match</string>
+    >
+    <string-array name="bloodgroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

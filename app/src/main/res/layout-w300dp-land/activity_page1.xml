@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blackgradient"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textColorHighlight="#fff"
+        android:textColorHint="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:buttonTint="#fff"
+            android:checked="true"
+            android:text="Remember Me"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/forgot_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="6dp"
+            android:padding="4dp"
+            android:text="Forget Password"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/login"
+        android:layout_width="171dp"
+        android:layout_height="39dp"
+        android:layout_alignTop="@+id/createaccount"
+        android:layout_toStartOf="@+id/img5"
+        app:cardBackgroundColor="@color/CornflowerBlue"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/login_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="LOGIN"
+                android:textColor="@color/Black" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/createaccount"
+        android:layout_width="171dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="50dp"
+        app:cardBackgroundColor="@color/CornflowerBlue"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/signup_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="CREATE ACCOUNT "
+                android:textColor="@color/Black" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
